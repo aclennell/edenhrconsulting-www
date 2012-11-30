@@ -22,8 +22,8 @@
 
 <div id="area" class="article">
 <h2>Where we are and the area we cover</h2>
-<p>We’re based in Southwater, which is a large village on the edge of Horsham. Please see the map below of how to find us.</p>
-<p>Our core area is East and West Sussex, Surrey and London, although we are happy to assist within the Kent and Hampshire areas also.</p>
+<p>We’re based in Horsham in West Sussex.</p>
+<p>Our core area is East and West Sussex, Surrey, London and Hampshire, although we are happy to assist within the Kent and Hampshire areas also.</p>
 <p>We’ll come to you free of charge within 30 road miles of us. Outside of this area we are happy to assist aswell but we’ll need to charge mileage. We do offer support for business' further away and have clients in such places as Derby, Cambridge, Southend-on-Sea and Bristol who mainly use us for telephone support, or have larger requirements that warrant a full day’s work.</p>
 </div>
 
@@ -58,10 +58,5 @@
     <?php echo $this->Html->Image('eden/clients/sussex-bootcamps.jpg'); ?>        
 </div>
 
-</div>
-  <div id="adam" class="article">
-<h2>The Brilliance of Adam </h2>
-<p>I am a brilliant human being although, at this point somewhat lacking in PHP knowledge.</p>
-</div>  
-    
+</div>   
 </div>

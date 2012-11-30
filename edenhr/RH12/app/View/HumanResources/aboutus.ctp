@@ -59,4 +59,9 @@
 </div>
 
 </div>
+  <div id="adam" class="article">
+<h2>The Brilliance of Adam </h2>
+<p>I am a brilliant human being although, at this point somewhat lacking in PHP knowledge.</p>
+</div>  
+    
 </div>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! 1.5 - Open Source Content Management" -->
+<feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="en-gb">
+	<title type="text">Home</title>
+	<subtitle type="text">Joomla! - the dynamic portal engine and content management system</subtitle>
+	<link rel="alternate" type="text/html" href="http://www.edenhrconsulting.com"/>
+	<id>http://www.edenhrconsulting.com/index.php</id>
+	<updated>2012-11-26T15:48:39Z</updated>
+	<generator uri="http://joomla.org" version="1.5">Joomla! 1.5 - Open Source Content Management</generator>
+<link rel="self" type="application/atom+xml" href="http://www.edenhrconsulting.com/index.php?format=feed&amp;type=atom" />
+	<entry>
+		<title>Welcome</title>
+		<link rel="alternate" type="text/html" href="http://www.edenhrconsulting.com/index.php?option=com_content&amp;view=article&amp;id=1:welcome-to-eden-hr&amp;catid=1:content&amp;Itemid=262"/>
+		<published>2010-04-09T15:10:00Z</published>
+		<updated>2010-04-09T15:10:00Z</updated>
+		<id>http://www.edenhrconsulting.com/index.php?option=com_content&amp;view=article&amp;id=1:welcome-to-eden-hr&amp;catid=1:content&amp;Itemid=262</id>
+		<author>
+			<name>Administrator</name>
+		<email>studio@hh-design.co.uk</email>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;img src=&quot;images/stories/eden-stick-figures/eden-home.jpg&quot; alt=&quot;eden-home&quot; style=&quot;float: right;&quot; height=&quot;300&quot; width=&quot;194&quot; /&gt;We provide independent, expert HR advice and support to a range of businesses and have developed a reputation for being an experienced and trusted partner to our clients. &lt;br /&gt; &lt;br /&gt; Our skilled team brings a wealth of corporate knowledge to small and medium-sized businesses, and you can be sure we will always have your organisation’s best interests at heart. &lt;br /&gt; &lt;br /&gt; As well as being professional and knowledgeable, our staff members are passionate about their work and take great pride in helping you get results and achieve your objectives.&lt;br /&gt; &lt;br /&gt; The services we offer are wide-ranging. Whether it’s providing you with in-house resources or consulting you on how to avoid serious legal issues, you will get individual, tailored solutions. &lt;br /&gt; &lt;br /&gt; Find our more &lt;a href=&quot;index.php?Itemid=166&quot;&gt;about us&lt;/a&gt; or get in &lt;a href=&quot;index.php?option=com_content&amp;view=article&amp;id=12:contact-us&amp;catid=7&amp;Itemid=6&quot;&gt;touch&lt;/a&gt;.&lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Company Information:&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Company Registration Number : 05398879&lt;/p&gt;
+&lt;p&gt;VAT Number: 862552613&lt;/p&gt;
+&lt;p&gt;Office Address: Milnwood, 13 North Parade, Horsham, West Sussex, RH12 2BT&lt;/p&gt;
+&lt;p&gt;Registered Address: 5 Porchester Close, Southwater, Horsham, West Sussex, RH13 9XR.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;images/stories/eden-stick-figures/eden-home.jpg&quot; alt=&quot;eden-home&quot; style=&quot;float: right;&quot; height=&quot;300&quot; width=&quot;194&quot; /&gt;We provide independent, expert HR advice and support to a range of businesses and have developed a reputation for being an experienced and trusted partner to our clients. &lt;br /&gt; &lt;br /&gt; Our skilled team brings a wealth of corporate knowledge to small and medium-sized businesses, and you can be sure we will always have your organisation’s best interests at heart. &lt;br /&gt; &lt;br /&gt; As well as being professional and knowledgeable, our staff members are passionate about their work and take great pride in helping you get results and achieve your objectives.&lt;br /&gt; &lt;br /&gt; The services we offer are wide-ranging. Whether it’s providing you with in-house resources or consulting you on how to avoid serious legal issues, you will get individual, tailored solutions. &lt;br /&gt; &lt;br /&gt; Find our more &lt;a href=&quot;index.php?Itemid=166&quot;&gt;about us&lt;/a&gt; or get in &lt;a href=&quot;index.php?option=com_content&amp;view=article&amp;id=12:contact-us&amp;catid=7&amp;Itemid=6&quot;&gt;touch&lt;/a&gt;.&lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Company Information:&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Company Registration Number : 05398879&lt;/p&gt;
+&lt;p&gt;VAT Number: 862552613&lt;/p&gt;
+&lt;p&gt;Office Address: Milnwood, 13 North Parade, Horsham, West Sussex, RH12 2BT&lt;/p&gt;
+&lt;p&gt;Registered Address: 5 Porchester Close, Southwater, Horsham, West Sussex, RH13 9XR.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</content>
+	</entry>
+</feed>

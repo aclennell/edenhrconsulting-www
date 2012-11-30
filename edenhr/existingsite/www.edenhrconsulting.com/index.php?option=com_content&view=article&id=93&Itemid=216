@@ -1,0 +1,801 @@
+
+<!DOCTYPE html>
+<html xml:lang="en-gb" lang="en-gb" >
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="joomla, Joomla" />
+  <meta name="title" content="In The News" />
+  <meta name="author" content="Graham Laker" />
+  <meta name="description" content="Joomla! - the dynamic portal engine and content management system" />
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+  <title>In The News</title>
+
+<!-- Loads Master CSS -->
+	<link rel="stylesheet" href="http://www.edenhrconsulting.com/templates/deepblue/css/master.css" type="text/css" media="screen, projection" />
+	
+<!-- Loads additional CSS file to edit/customize or overwrite the base/default classes-->	
+	<link rel="stylesheet" href="http://www.edenhrconsulting.com/templates/deepblue/css/custom_css.css" type="text/css" media="screen, projection" />
+
+	
+<!--[if IE 7]>
+<link rel="stylesheet" href="/templates/deepblue/css/ie7.css" type="text/css" media="screen, projection">
+<style type="text/css">
+div.moduletable_news{margin-left:0px;}
+.moduletable_newsletter{margin-left:0px;}
+.moduletable_inthenews{margin-left:0px;}
+</style>
+<![endif]-->
+<!-- Add custom colors from the template setup-->
+<style type="text/css">
+</style>
+
+<!--Opacity for IE Browsers-->
+
+<!--[if IE]>
+<script type="text/javascript" src="/templates/deepblue/js/DD_roundies_0.0.2a.js"></script>
+<style type="text/css">
+.subheader {
+filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90, FinishOpacity=90, Style=0);
+"progid:DXImageTransform.Microsoft.Alpha(Opacity=90, FinishOpacity=90, Style=0)";
+}
+</style>
+<script>
+  DD_roundies.addRule('div.moduletable_news,.moduletable_newsletter,.moduletable_inthenews', '10px',true);
+</script>
+ <![endif]-->
+
+<!--Loads FavIcon-->
+<link rel="shortcut icon" href="http://www.edenhrconsulting.com/images/favicon.ico" />  
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20221570-1']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+<div class="wrapper">
+<!-- ****************** Top Area with Logo, topmenu etc.****************** -->
+	<div class="top">
+		<div class="container">
+		 
+				<div class="logo_image">
+				<a href="index.html"><img src="http://www.edenhrconsulting.com/templates/deepblue/images/logo.png" alt="Eden HR"  /></a>
+			</div>
+							<div class="topmenu">
+					<ul class="menu"><li class="item1"><a href="index.html"><span>Home</span></a></li><li class="item2"><a href="index.php?option=com_content&amp;view=article&amp;id=2&amp;Itemid=2"><span>Testimonials</span></a></li><li class="item3"><a href="index.php?option=com_content&amp;view=article&amp;id=3&amp;Itemid=3"><span>Our Services</span></a></li><li class="item4"><a href="index.php?option=com_content&amp;view=article&amp;id=4&amp;Itemid=4"><span>News</span></a></li><li class="item5"><a href="index.php?option=com_content&amp;view=article&amp;id=13&amp;Itemid=5"><span>Links</span></a></li><li class="item6"><a href="index.php?option=com_content&amp;view=article&amp;id=12&amp;Itemid=6"><span>Contact Us</span></a></li></ul>				
+			</div>
+								<div class="search">
+					<form action="index.php" method="post">
+	<div class="search">
+		<input name="searchword" id="mod_search_searchword" maxlength="20" alt="GO" class="inputbox" type="text" size="20" value="Search"  onblur="if(this.value=='') this.value='Search';" onfocus="if(this.value=='Search') this.value='';" /><input type="submit" value="GO" class="button" onclick="this.form.searchword.focus();"/>	</div>
+	<input type="hidden" name="task"   value="search" />
+	<input type="hidden" name="option" value="com_search" />
+	<input type="hidden" name="Itemid" value=216 />
+</form>				
+			</div>
+					<hr />
+		</div>
+	</div>
+	
+<!-- ****************** Header Area with Header image, top modules etc. ****************** -->
+	<div class="header">
+		<div class="container">
+																<div class="moduletable">
+					<script src="http://www.edenhrconsulting.com/modules/mod_slidemenu/js/prototype.js" type="text/javascript"></script>
+  <script src="http://www.edenhrconsulting.com/modules/mod_slidemenu/js/effects.js" type="text/javascript"></script>
+  <script language="javascript">
+  var sliding = 0;
+var slideTime = '';
+
+// Set is sliding value
+function setSliding(a_ISliding){
+	sliding = a_ISliding;
+}
+
+// Get is sliding value
+function getSliding(){
+	return sliding;
+}
+
+// Carry out accordian styled effect
+function accordion(evt) {
+	el = Event.element(evt);
+	var eldown = getNextSibling(el);
+	
+	//  If element is visible do nothing
+	if ($('visible') == el) {
+			return;
+	}
+	if ($('visible')) {
+	
+			if( getSliding() == 1 ){
+					return false;
+			}
+		
+			var elup = getNextSibling($('visible'));
+			
+			
+
+			setSliding( 1 );
+			
+			parellelSlide( elup, eldown );
+			$('visible').id = '';
+
+			
+			var backImage
+			//backImage = eldown.id + '.jpg';
+			//alert(eldown.id);
+			var ss = eldown.id
+			var result = ss.substring(5,6);
+			backImage = 'slidemenu'+ result + '.jpg';
+			//alert(backImage);
+			
+			document.getElementById("accordion").style.background = 'url(http://www.edenhrconsulting.com/images/'+backImage+')';
+	}
+	else{
+			setSliding( 1 );
+			singleSlide( eldown );
+	}
+	
+	el.id = 'visible';
+}
+
+
+// Setup accordian initial state
+function init() {
+		
+		var bodyPanels = document.getElementsByClassName('panel_body');
+		var panels = document.getElementsByClassName('panel');
+		var noPanels = panels.length;
+		var percentageWidth = 100 / noPanels;
+		var position = 0;
+		//  Loop through body panels and panels applying required styles and adding event listeners
+    for (i = 0; i < bodyPanels.length; i++) {
+			bodyPanels[i].hide();
+			panels[i].style.width = percentageWidth + '%';
+			panels[i].style.position = 'absolute';
+			panels[i].style.left = position + '%';
+			
+			Event.observe(panels[i].getElementsByTagName('h3')[0], 'mouseover', accordion, false);
+			Event.observe(panels[i].getElementsByTagName('h3')[0], 'mousemove', accordion, false);
+			Event.observe(document.body, 'mousemove', resetIdle, false);
+			
+			position += percentageWidth;
+    }
+		
+		if( $('visible') ){
+		//  Set panel with id of visible to be initial displayed
+		
+			var vis = $('visible').parentNode.id+'-body';
+			$(vis).show();
+			
+			
+		}
+		setIdle();
+		//alert(eldown);
+}
+
+// Next sibling method to work around firefox issues
+function getNextSibling(startBrother){
+	var endBrother=startBrother.nextSibling;
+  while(endBrother.nodeType!=1){
+	  		
+
+    endBrother = endBrother.nextSibling;
+	
+  }
+  return endBrother;
+}
+
+function parellelSlide( elup, eldown ){
+		new Effect.Parallel(
+		[
+				new Effect.SlideUp(elup),
+				new Effect.SlideDown(eldown)
+		], {
+				duration: 0.3,
+				afterFinish: function() { setSliding( 0 );}
+		});
+}
+
+function singleSlide( eldown ){
+	
+		new Effect.Parallel(
+		[
+				new Effect.SlideDown(eldown)
+		], {
+				duration: 0.3,
+				afterFinish: function() { setSliding( 0 );}
+		});
+}
+
+function resetTabs(){
+	
+	var resetEl = getNextSibling( $('visible') );
+	
+	setSliding( 1 );
+	
+	new Effect.Parallel(
+	[
+			new Effect.SlideUp( resetEl )
+	], {
+			duration: 0.3,
+			afterFinish: function() { setSliding( 0 );}
+	});
+	
+	$('visible').id = '';
+}
+
+function resetIdle(){
+		if( $('visible') ){
+				window.clearTimeout( slideTime );
+				slideTime = window.setTimeout( "resetTabs()", 10000 );
+		}
+}
+
+function setIdle(){
+	if( $('visible') ){
+		slideTime = window.setTimeout( "resetTabs()", 10000 );
+	}
+}
+
+Event.observe(window, 'load', init, false);
+</script>
+	<style>
+	
+	#accordion {
+			border: 0px solid #1F669B;
+			width: 887px;
+			height: 300px;
+			font-family: verdana, Arial, Helvetica, sans-serif;
+			font-size: 13px;
+			position:relative !important;
+			display:block;
+			overflow:hidden;
+			background-image:url(http://www.edenhrconsulting.com/images/slidemenu1.jpg);
+			background-repeat:no-repeat;
+			background-position:top left;
+	}
+	
+	h3 {
+			font-size: 17px;
+			padding: 10px 6px 8px 18px;
+			margin: 0;
+			color:#f68e1e !important;
+			
+			cursor:pointer;
+			display:block;
+			/*background-image:url(images/tab-left.gif);*/
+			background-position:top left;
+			background-repeat:no-repeat;
+			font-family: Arial, Helvetica, sans-serif;
+	}
+	
+	h3 span {
+	color:#FF7DCE;
+	}
+	
+	#visible {
+			/*background-image:url(images/tab-left-active.gif);*/
+			
+	}
+	
+	.panel_body {
+	height:260px;
+	
+	display:block;
+	position:relative;
+	color:#FFFFFF;
+				
+	}
+	
+	.panel_body ul{
+			
+			margin:0px;
+			width:100
+			
+	}
+	
+	.panel_body ul li{
+			line-height:1.5em;
+			list-style-type:none;
+			}
+			
+			.panel_body ul li a{
+			color:#fff;
+			text-decoration:none;
+			}
+			
+			.panel_body ul li a:hover{
+			color:#8cc74d;
+			}
+	
+	.panel_body div {
+			padding:3px 18px;
+	}
+	
+	.panel{
+		bottom:0px;
+		margin:0px;
+		padding:0px;
+		background-image:url(http://www.edenhrconsulting.com/modules/mod_slidemenu/images/navigation_tab.png);
+		/*background-position:top right;
+		background-repeat:repeat-x;*/
+		background-repeat:no-repeat;
+		
+		
+	}
+	
+	</style>
+        
+<div id="accordion"> 
+  <div class="panel" id="panel1">
+    <h3>About Us</h3>
+    <div id="panel1-body" class="panel_body"> 
+      <div>
+      <ul>
+							<li><a href="index.php?option=com_content&amp;view=article&amp;id=1&amp;Itemid=216">Welcome</a></li>
+								<li><a href="index.php?option=com_content&amp;view=article&amp;id=17&amp;Itemid=166">About Us</a></li>
+								<li><a href="index.php?option=com_content&amp;view=article&amp;id=18&amp;Itemid=167">How we deliver our services</a></li>
+								<li><a href="index.php?option=com_content&amp;view=article&amp;id=19&amp;Itemid=168">Our People</a></li>
+								<li><a href="index.php?option=com_content&amp;view=article&amp;id=2&amp;Itemid=176">What our clients think about us</a></li>
+								<li><a href="index.php?option=com_content&amp;view=article&amp;id=27&amp;Itemid=177">Our clients</a></li>
+								<li><a href="index.php?option=com_content&amp;view=article&amp;id=13&amp;Itemid=179">Links</a></li>
+								<li><a href="index.php?option=com_content&amp;view=article&amp;id=12&amp;Itemid=178">Where we are and what area we cover</a></li>
+								<li><a href="index.php?option=com_content&amp;view=article&amp;id=12&amp;Itemid=180">Contact us</a></li>
+								<li><a href="index.php?option=com_content&amp;view=article&amp;id=105&amp;Itemid=216">Published Articles</a></li>
+					 </ul>
+     </div>
+    </div>
+  </div>
+  
+  <div class="panel" id="panel2"> 
+    <h3>Our Services</h3>
+    <div id="panel2-body" class="panel_body"> 
+      <div><ul>
+				<li><a href="index.php?option=com_content&amp;view=article&amp;id=3&amp;Itemid=109">Our Services</a></li>
+								<li><a href="index.php?option=com_content&amp;view=article&amp;id=28&amp;Itemid=110">Free Initial Consultation</a></li>
+								<li><a href="index.php?option=com_content&amp;view=article&amp;id=7&amp;Itemid=111">Rules and Regulations</a></li>
+								<li><a href="index.php?option=com_content&amp;view=article&amp;id=33&amp;Itemid=108">Learning & Development (Training)</a></li>
+								<li><a href="index.php?option=com_content&amp;view=article&amp;id=40&amp;Itemid=125">Pay and Benefits</a></li>
+								<li><a href="index.php?option=com_content&amp;view=article&amp;id=43&amp;Itemid=128">People and Policies</a></li>
+								<li><a href="index.php?option=com_content&amp;view=article&amp;id=50&amp;Itemid=135">Recruit and Streamline</a></li>
+								<li><a href="index.php?option=com_content&amp;view=article&amp;id=64&amp;Itemid=149">Health and Safety</a></li>
+								<li><a href="index.php?option=com_content&amp;view=article&amp;id=68&amp;Itemid=154">Occupational Health</a></li>
+								<li><a href="index.php?option=com_content&amp;view=article&amp;id=74&amp;Itemid=159">Employee Assistance Programme</a></li>
+								<li><a href="index.php?option=com_content&amp;view=article&amp;id=75&amp;Itemid=160">Human Resources Software</a></li>
+								<li><a href="index.php?option=com_content&amp;view=article&amp;id=76&amp;Itemid=161">Emergencies</a></li>
+								<li><a href="index.php?option=com_content&amp;view=article&amp;id=30&amp;Itemid=115">Employment Law Advice</a></li>
+					  </ul></div>
+    </div>
+  </div>
+  
+  <div class="panel" id="panel3"> 
+    <h3>Case Studies</h3>
+    <div id="panel3-body" class="panel_body"> 
+      <div> 
+	  <ul>
+	  				<li><a href="index.php?option=com_content&amp;view=article&amp;id=85&amp;Itemid=190">Under-Performance Dismissal</a></li>
+								<li><a href="index.php?option=com_content&amp;view=article&amp;id=86&amp;Itemid=191">Restructure and Redundancies</a></li>
+								<li><a href="index.php?option=com_content&amp;view=article&amp;id=87&amp;Itemid=192">Compromise Agreement</a></li>
+								<li><a href="index.php?option=com_content&amp;view=article&amp;id=88&amp;Itemid=193">Learning and Development</a></li>
+								<li><a href="index.php?option=com_content&amp;view=article&amp;id=89&amp;Itemid=194">Investors in People</a></li>
+								<li><a href="index.php?option=com_content&amp;view=article&amp;id=12&amp;Itemid=195">Contact Us</a></li>
+					  </ul>
+	  </div>
+    </div>
+  </div>
+  
+</div>
+
+<script>init();</script>
+
+		</div>
+	
+												</div>
+	</div>
+	
+<!-- ****************** Main Area with all main content ****************** -->
+	<div class="main">
+		<div class="container">
+					<div class="block1 border">
+				
+			</div>
+			<hr />
+		 
+		
+		<!--Four 25% Blocks-->
+		 
+		
+		 
+		
+				
+				
+				
+		<!--Three 33% Blocks-->
+				
+				
+					
+					
+		<!--Two 50% Blocks-->
+					<div class="block2">
+						<div class="moduletable_breadcrumbs">
+					<span class="breadcrumbs pathway">
+<a href="index.html" class="pathway">Home</a> <img src="http://www.edenhrconsulting.com/images/M_images/arrow.png" alt=""  /> In The News</span>
+		</div>
+	
+			</div>
+			
+			
+			
+		 
+			<hr />
+					
+		<!--One 100% Block-->
+					<div class="block1">
+						<div class="moduletable">
+					
+
+	
+		<script type='text/javascript'>
+		<!--
+		universalFontSize = 12;
+		maxSize = 18;
+		minSize = 6;
+		//-->
+		</script><script type="text/javascript" src="http://www.edenhrconsulting.com/modules/mod_fhw_fontadjust/js/mod_fhw-fontadjust-px.js"></script>
+
+
+
+
+
+
+
+	<div class="">
+		
+        
+        <div id="fontSize" style="width: 100%; text-align: right;">
+			
+                       
+			<span class="">
+                
+					<a href="index.php" title="Increase Font Size" onclick="changeFontSize(1); return false;" class="larger">
+						<img src="http://www.edenhrconsulting.com/modules/mod_fhw_fontadjust/images/larger6.png" width="30" height="25" border="0" alt="Increase Font Size" />
+					</a>
+								</span>
+            <span class="">
+                
+					<a href="index.php" title="Reset Font Size" onclick="revertStyles(); return false;" class="reset">
+						<img src="http://www.edenhrconsulting.com/modules/mod_fhw_fontadjust/images/default6.png" width="30" height="25" border="0" alt="Reset Font Size" />
+					</a>
+								</span>
+            <span class="">
+                
+					<a href="index.php" title="Decrease Font Size" onclick="changeFontSize(-1); return false;" class="smaller">
+						<img src="http://www.edenhrconsulting.com/modules/mod_fhw_fontadjust/images/smaller6.png" width="30" height="25" border="0" alt="Decrease Font Size" />
+					</a>
+								</span>
+            
+		</div>
+         
+	</div>
+
+
+
+		</div>
+	
+			</div>
+			<hr />
+				<!-- Main component-->
+			
+		<!--Left Block-->
+					<div class="														block0
+													">
+			
+							<table class="contentpaneopen">
+<tr>
+		<td class="contentheading" width="80%">
+					In The News			</td>
+				
+		
+					</tr>
+</table>
+
+<table class="contentpaneopen">
+
+
+
+<tr>
+<td valign="top">
+<p><span style="font-size: 14pt;"><br />Ask Eve...</span></p>
+<p><span style="font-size: 14pt;">HR Questions & Answers with Eve Clennell of Eden HR Consulting.</span><br /><br />The articles below are published monthly in the West Sussex County Times Business Matters supplement where Eve, our Principle Consultant, is the resident HR expert. The column is entitled ‘Ask Eve’ and readers are invited to pose HR related questions of Eve. The column has been running since October 2007 and she is the longest standing contributor in the magazine. The topics posed are varied and cover a wide range of HR related topics and so are an invaluable resource to the readers.<br /><br />Browse the précis of the articles below and then click on the link to go to the full article.<br /><br />Please note that as Legislation changes bi-annually (in April and October) and as such for articles that have been written prior to 6 months of reading may or may not be out of date. However, if you wish to know more or wish to check that the information contained within any article is correct, please feel free to contact Eve Clennell directly on 01403 734455, 07980 570465 or by email 
+ <script language='JavaScript' type='text/javascript'>
+ <!--
+ var prefix = 'm&#97;&#105;lt&#111;:';
+ var suffix = '';
+ var attribs = '';
+ var path = 'hr' + 'ef' + '=';
+ var addy27388 = '&#101;v&#101;' + '&#64;';
+ addy27388 = addy27388 + '&#101;d&#101;nhrc&#111;ns&#117;lt&#105;ng' + '&#46;' + 'c&#111;m';
+ document.write( '<a ' + path + '\'' + prefix + addy27388 + suffix + '\'' + attribs + '>' );
+ document.write( addy27388 );
+ document.write( '<\/a>' );
+ //-->
+ </script> <script language='JavaScript' type='text/javascript'>
+ <!--
+ document.write( '<span style=\'display: none;\'>' );
+ //-->
+ </script>This e-mail address is being protected from spambots. You need JavaScript enabled to view it
+ <script language='JavaScript' type='text/javascript'>
+ <!--
+ document.write( '</' );
+ document.write( 'span>' );
+ //-->
+ </script>. Or if you would like to write a question to Eve to be considered in one of her published articles please send an email to her, with “Business Matters Question” detailed in the subject heading of your email.</p>
+<table style="width: 600px; height: 3108px;" align="left" border="0" cellpadding="5">
+<tbody>
+<tr>
+<td><a href="http://www.edenhrconsulting.com/images/stories/pdf/1106-Eden_HR_JUNE11_34x3_Layout_1_2.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td>
+<p><strong><span style="color: #ff9900;">Article: Fathers and Maternity Pay</span><br /></strong></p>
+<p>This article deal with fathers taking part of the mothers maternity pay. (Published: June 2011)</p>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.edenhrconsulting.com/images/stories/1104-Criminal_Convictions.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td>
+<p><span class="Orange"><strong>Article: Employing people with criminal convictions</strong></span></p>
+<p><span class="Orange"></span>This article details the forthcoming employment law changes in 2011. (Published: March 2011)</p>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.edenhrconsulting.com/images/stories/pdf/1102-_8_Tips_to_Prevent_Tribunal.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td>
+<p><strong><span class="Orange">Article: Employee Turnover</span> </strong><br />This article details Eden HR's suggestions and tips on how to operate a suscessful people business and avaid the potential of a Tribunal claim (Published: February 2011)</p>
+</td>
+</tr>
+<tr>
+<td><a target="_blank" href="http://www.edenhrconsulting.com/images/stories/pdf/1101-Employment_Law_Changes_2011.pdf" title="1101-Employment_Law_Changes_2011.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td><span class="Orange"><strong>Article: Employment Law Changes 2011</strong></span><br />This article details the forthcoming employment law changes in 2011. (Published: January 2011)</td>
+</tr>
+<tr>
+<td style="width: 50px;"><a target="_blank" href="http://www.edenhrconsulting.com/images/stories/pdf/Equality_Act-1111.pdf" title="Equality_Act-1111.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td><span class="Orange"><strong>Article: Equality Act </strong></span><br />This article details the implications of the New Equality Act which superceeds and harmonises previous discrimination legislation. (Published: November 2010)</td>
+</tr>
+<tr>
+<td><a target="_blank" href="http://www.edenhrconsulting.com/images/stories/pdf/Employee_Turnover-1010.pdf" title="Employee_Turnover-1010.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td><span class="Orange"><strong>Article: Employee Turnover </strong></span><br />This article details HR practices to measure employee turnover and at what point is the turnover too high. (Published: October 2010)<br /></td>
+</tr>
+<tr>
+<td><a target="_blank" href="http://www.edenhrconsulting.com/images/stories/pdf/WTD_48_Hours_Opt_Out-1009.pdf" title="WTD_48_Hours_Opt_Out-1009.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td><span class="Orange"><strong>Article: WTD 48 Hours Opt Out </strong></span><br />This article details employees basic rights under the Working Time Directive, health and safety considerations and opt-out agreements. (Published: September 2010)</td>
+</tr>
+<tr>
+<td><a target="_blank" href="http://www.edenhrconsulting.com/images/stories/pdf/Mental_Health_and_Change_of_Hours-09.pdf" title="Mental_Health_and_Change_of_Hours-09.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td><span class="Orange"><strong>Article: Mental Health and Change of Hours </strong></span><br />This article details a situation where an employee has mental health illness (covered by disability discrimination legislation) and deals with how you should handle a request to change hours of working. (Published: August 2010)</td>
+</tr>
+<tr>
+<td><a target="_blank" href="http://www.edenhrconsulting.com/images/stories/pdf/Environmental_Issues_and_Employment_Ideas-1008.pdf" title="Environmental_Issues_and_Employment_Ideas-1008.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td><span class="Orange"><strong>Article: Environmental Issues and Employment Ideas </strong></span><br />This article details employee schemes which can be introduced to increase Companies ‘green credentials’ and why it makes good business sense. (Published: July 2010)</td>
+</tr>
+<tr>
+<td><a target="_blank" href="http://www.edenhrconsulting.com/images/stories/pdf/Wrongful_Dismissal-1007.pdf" title="Wrongful_Dismissal-1007.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td><span class="Orange"><strong>Article: Wrongful Dismissal </strong></span><br />This article details the difference between unfair and wrongful dismissal. (Published: June 2010)</td>
+</tr>
+<tr>
+<td><a target="_blank" href="http://www.edenhrconsulting.com/images/stories/pdf/ET1_and_ET3-1005.pdf" title="ET1_and_ET3-1005.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td><span class="Orange"><strong>Article: ET1 and ET3 </strong></span><br />This article details the tribunal process of receiving a employment tribunal claim (a completed ET1 form) and responding to the claim with your defence (by completion of an ET3 form). (Published: May 2010)</td>
+</tr>
+<tr>
+<td><a target="_blank" href="http://www.edenhrconsulting.com/images/stories/pdf/Delegation_and_Training-1004.pdf" title="Delegation_and_Training-1004.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td><span class="Orange"><strong>Article: Delegation and Training </strong></span><br />This article details the benefits of delegation and training staff to enable SME’s to grow successfully. (Published: April 2010)</td>
+</tr>
+<tr>
+<td><a target="_blank" href="http://www.edenhrconsulting.com/images/stories/pdf/Sick_Notes-1003.pdf" title="Sick_Notes-1003.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td><span class="Orange"><strong>Article: Sick Notes </strong></span><br />This article details the change of law introducing fit notes (instead of ‘sick notes’) and their implications with implementation. (Published: March 2010)</td>
+</tr>
+<tr>
+<td><a target="_blank" href="http://www.edenhrconsulting.com/images/stories/pdf/Nutrition_and_the_Workplace-1002.pdf" title="Nutrition_and_the_Workplace-1002.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td><span class="Orange"><strong>Article: Nutrition and the Workplace </strong></span><br />This article details nutritional practices which can be implemented in Companies, the positive effects they can have on employees and the tangible results of reduced absenteeism. (Published: February 2010)</td>
+</tr>
+<tr>
+<td><a target="_blank" href="http://www.edenhrconsulting.com/images/stories/pdf/Employment_Law_Changes_2010-1001.pdf" title="Employment_Law_Changes_2010-1001.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td><span class="Orange"><strong>Article: Employment Law Changes 2010 </strong></span><br />This article details the significant employment legislation changes that are to occur in 2010. (Published: January 2010)</td>
+</tr>
+<tr>
+<td><a target="_blank" href="http://www.edenhrconsulting.com/images/stories/pdf/Parental_Leave-0911.pdf" title="Parental_Leave-0911.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td><span class="Orange"><strong>Article: Parental Leave </strong></span><br />This article details the eligibility and entitlements of Parental Leave. Parental leave is the right to take unpaid time off work to look after their child or make arrangements for their welfare. (Published: November 2009)</td>
+</tr>
+<tr>
+<td><a target="_blank" href="http://www.edenhrconsulting.com/images/stories/pdf/Paternity_Leave-0910.pdf" title="Paternity_Leave-0910.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td><span class="Orange"><strong>Article: Paternity Leave </strong></span><br />This article details the eligibility and entitlements of Paternity Leave. Paternity Leave is the right to paid time off for a period of one or two weeks at or near the time a dependant child is born (Published: October 2009)</td>
+</tr>
+<tr>
+<td><a target="_blank" href="http://www.edenhrconsulting.com/images/stories/pdf/Swine_Flu-0909.pdf" title="Swine_Flu-0909.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td><span class="Orange"><strong>Article: Swine Flu </strong></span><br />This article details the recommended communication to staff regarding swine flu and preventative measures Companies can put in place. (Published: September 2009)</td>
+</tr>
+<tr>
+<td><a target="_blank" href="http://www.edenhrconsulting.com/images/stories/pdf/Corporate_Social_Responsibility-0908.pdf" title="Corporate_Social_Responsibility-0908.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td><span class="Orange"><strong>Article: Corporate Responsibility </strong></span><br />This article details the benefits of Corporate Social Responsibility (CSR) practices in your business and the importance of their consideration. (Published: August 2009)</td>
+</tr>
+<tr>
+<td><a target="_blank" href="http://www.edenhrconsulting.com/images/stories/pdf/Maternity-0907.pdf" title="Maternity-0907.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td><span class="Orange"><strong>Article: Maternity </strong></span><br />This article details maternity process and also maternity risk assessments which legally need to take place. (Published: July 2009)</td>
+</tr>
+<tr>
+<td><a target="_blank" href="http://www.edenhrconsulting.com/images/stories/pdf/Cutting_Manpower_Costs-0906.pdf" title="Cutting_Manpower_Costs-0906.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td><span class="Orange"><strong>Article: Cutting Manpower Costs </strong></span><br />This article details practices that can be put in place to reduce manpower costs without having to make redundancies. (Published: June 2009)</td>
+</tr>
+<tr>
+<td><a target="_blank" href="http://www.edenhrconsulting.com/images/stories/pdf/Absence_Management-0905.pdf" title="Absence_Management-0905.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td><span class="Orange"><strong>Article: Absence Management </strong></span><br />This article details recommended practices to minimise short term absences. (Published: May 2009)</td>
+</tr>
+<tr>
+<td><a target="_blank" href="http://www.edenhrconsulting.com/images/stories/pdf/Referencing-0904.pdf" title="Referencing-0904.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td><span class="Orange"><strong>Article: Referencing </strong></span><br />This article details what you should and shouldn’t say when giving an ex-employee a reference. (Published: April 2009)</td>
+</tr>
+<tr>
+<td><a target="_blank" href="http://www.edenhrconsulting.com/images/stories/pdf/HR_Legal_Minimums-0903.pdf" title="HR_Legal_Minimums-0903.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td><span class="Orange"><strong>Article: HR Legal Minimums </strong></span><br />This article details what HR documentation you need to have in place to meet your employment legislation legal minimums (Published: March 2009)</td>
+</tr>
+<tr>
+<td><a target="_blank" href="http://www.edenhrconsulting.com/images/stories/pdf/Employee_Communication-0902.pdf" title="Employee_Communication-0902.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td><span class="Orange"><strong>Article: Employee Communication </strong></span><br />This article details how good communication can make teams work more effectively. The article also lists methods which can aid employee communications (Published: February 2009)</td>
+</tr>
+<tr>
+<td><a target="_blank" href="http://www.edenhrconsulting.com/images/stories/pdf/Fixed_Term_Workers-0901.pdf" title="Fixed_Term_Workers-0901.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td><span class="Orange"><strong>Article: Fixed Term Workers</strong></span><br />This article details at what point a fixed term worker may be considered as permanently employed (Published: January 2009)</td>
+</tr>
+<tr>
+<td><a target="_blank" href="http://www.edenhrconsulting.com/images/stories/pdf/Flexible_Working-0811.pdf" title="Flexible_Working-0811.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td><span class="Orange"><strong>Article: Flexible Working</strong></span><br />This article details who is legally entitled to make a request under Flexible Working Regulations and legal process you must undertake when dealing with a flexible working request (Published: November 2008)</td>
+</tr>
+<tr>
+<td><a target="_blank" href="http://www.edenhrconsulting.com/images/stories/pdf/Email_and_Internet_Abuse-0810.pdf" title="Email_and_Internet_Abuse-0810.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td><span class="Orange"><strong>Article: Email and Internet Abuse</strong></span><br />This article details the liabilities and risks of staff misusing the Company email and internet systems and what measures can be put in place to reduce the risks (Published: October 2008)</td>
+</tr>
+<tr>
+<td><a target="_blank" href="http://www.edenhrconsulting.com/images/stories/pdf/Equal_Pay-0809.pdf" title="Equal_Pay-0809.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td><span class="Orange"><strong>Article: Equal Pay</strong></span><br />This article details the considerations you should give to whether you are paying you staff equally.  Equal pay can only be considered when an employee is being compared against an employee of the opposite sex; where ‘like work', ‘work rated as equivalent’ or ‘work of equal value’ is different without reasonable justification (Published: September 2008)</td>
+</tr>
+<tr>
+<td><a target="_blank" href="http://www.edenhrconsulting.com/images/stories/pdf/TUPE-08.pdf" title="TUPE-08.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td><span class="Orange"><strong>Article: TUPE</strong></span><br />This article details employment legislation requirements to be considered when taking over the operation of another business or Service.  The legislation surrounding the acquisition or takeover of a business/service is Transfer of Undertakings, Protection of Employees (TUPE) regulations (Published: August 2008)</td>
+</tr>
+<tr>
+<td><a target="_blank" href="http://www.edenhrconsulting.com/images/stories/pdf/Redundancies-0807.pdf" title="Redundancies-0807.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td><span class="Orange"><strong>Article: Redundancies</strong></span><br />This article details what redundancy means and the process that should be undertaken should you be in the situation where you may need to make employees redundant. (Published: July 2008)</td>
+</tr>
+<tr>
+<td><a target="_blank" href="http://www.edenhrconsulting.com/images/stories/pdf/Retirement-0806.pdf" title="Retirement-0806.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td><span class="Orange"><strong>Article: Retirement</strong></span><br />This article details the legal process when retiring an employee. (Published: June 2008)</td>
+</tr>
+<tr>
+<td><a target="_blank" href="http://www.edenhrconsulting.com/images/stories/pdf/Mental_Illness_and_Interviewing-0804.pdf" title="Mental_Illness_and_Interviewing-0804.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td><span class="Orange"><strong>Article: Mental Illness and Interviewing</strong></span><br />This article details the pitfalls in asking discriminatory questions at interview along with preventive measures to ensure your appointed staff is fit to work with a mental health illness. (Published: April 2008)</td>
+</tr>
+<tr>
+<td><a target="_blank" href="http://www.edenhrconsulting.com/images/stories/pdf/Age_Discrimination-0803.pdf" title="Age_Discrimination-0803.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td><span class="Orange"><strong>Article: Age Discrimination</strong></span><br />This article details the requirements under the Age Discrimination legislation when recruiting and pitfalls you should be aware of (Published: March 2008)</td>
+</tr>
+<tr>
+<td><a target="_blank" href="http://www.edenhrconsulting.com/images/stories/pdf/Employee_Handbooks-0802.pdf" title="Employee_Handbooks-0802.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td><span class="Orange"><strong>Article: Employee Handbook</strong></span><br />This article details the benefits of an Employee Handbook which is a collection of the Company policies and procedures.  Not legal requirement, but definitely useful to have! (Published: February 2008)</td>
+</tr>
+<tr>
+<td><a target="_blank" href="http://www.edenhrconsulting.com/images/stories/pdf/Disciplinary-Whole_Newpaper_Page-0801.pdf" title="Disciplinary-Whole_Newpaper_Page-0801.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td><span class="Orange"><strong>Article: Disciplinary – Whole Newspaper Page</strong></span><br />This article details the legal required process when undertaking the disciplinary process with an employee. Also see the article at the bottom of the page “Disability is no barrier to success” and read about Eve’s success despite her disability (Published: November 2007)</td>
+</tr>
+<tr>
+<td><a target="_blank" href="http://www.edenhrconsulting.com/images/stories/pdf/Contracts_of_Employment-0711.pdf" title="Contracts_of_Employment-0711.pdf"><img src="http://www.edenhrconsulting.com/images/stories/eden-icons/pdf-icon.jpg" alt="pdf-icon" height="31" width="32" /></a></td>
+<td><span class="Orange"><strong>Article: Contracts of Employment</strong></span><br />This article details legal requirements of having employment contracts in place, the benefits and what clauses need to be included in the document.  (Published: October 2007)</td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+
+</table>
+<span class="article_separator">&nbsp;</span>
+
+						</div>
+		
+		
+		
+			
+		<!--Right Block-->
+				<hr />
+			
+		<!--One 100% Block-->
+					
+		<!--Two 50% Blocks-->
+			
+			
+			
+		
+		<!--Three 33% Blocks-->
+				
+				
+				
+					
+		<!--Four 25% Blocks-->
+		 
+		
+		 
+		
+				
+				
+		
+		</div>
+		<div id="ja-pathway">
+
+</div>
+	</div>
+	
+<!-- Footer Area with footer content, credits etc. -->
+	<div class="footer">
+		<div class="container">
+		
+		<!--Five 20% Blocks-->
+					
+		
+			
+		
+					<div class="block5">
+						<div class="moduletable_footer">
+					<table style="width: 940px;" border="0">
+<tbody style="text-align: left;">
+<tr style="text-align: left;">
+<td style="text-align: left; height: 55px; padding-left: 10px;">Archive News | <a href="index.php?option=com_xmap&amp;sitemap=1&amp;Itemid=98">Sitemap</a> | <a target="_self" href="index.php?option=com_content&amp;view=article&amp;id=83:terms-and-conditions&amp;catid=7&amp;Itemid=216">Terms &amp; Conditions</a></td>
+<td style="text-align: center;"><a href="http://www.edenhrconsulting.com/blog/"><img style="margin-right: 10px;" alt="icon_blog" src="http://www.edenhrconsulting.com/images/stories/icon_blog.png" height="38" width="39" /></a><a target="_blank" href="http://www.linkedin.com/in/eveclennell"><img alt="icon_linkdin" src="http://www.edenhrconsulting.com/images/stories/icon_linkdin.png" height="37" width="37" /></a><a target="_blank" href="http://www.facebook.com/home.php#!/pages/Eden-HR-Consulting/139948316037232"><img style="padding-left: 11px;" alt="edenhr-face-book-icon" src="http://www.edenhrconsulting.com/images/stories/eden-icons/edenhr-face-book-icon.png" height="37" width="37" /></a></td>
+<td style="text-align: right;">Tel: 01403 734455  Email: <a href="mailto:info@edenhrconsulting.com?subject=Website Enquiry">info@edenhrconsulting.com</a></td>
+</tr>
+</tbody>
+</table>		</div>
+	
+			</div>
+			
+		
+				
+				
+		 
+			<hr />
+				
+
+			
+		</div>
+	</div>
+	<!--One 100% Block-->
+        
+            
+
+        
+                <!--One 100% Block-->
+            <div class="block1 centered">
+                		<div class="moduletable_credits">
+					<table style="width: 930px;" align="center" border="0">
+<tbody style="text-align: left;">
+<tr style="text-align: left;">
+<td style="text-align: left;">© 2010 Eden HR Consulting</td>
+<td style="text-align: right;">Site designed by <a target="_blank" href="http://hh-design.co.uk">HH Design</a></td>
+</tr>
+</tbody>
+</table>		</div>
+	
+            </div>
+           
+        </div>
+
+			
+</body>
+</html>
